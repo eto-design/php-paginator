@@ -12,8 +12,8 @@ class Paginator
     protected $currentPage;
     protected $urlPattern;
     protected $maxPagesToShow = 10;
-    protected $previousText = 'Назад';
-    protected $nextText = 'Далее';
+    protected $previousText = 'Previous';
+    protected $nextText = 'Next';
 
     /**
      * @param int $totalItems The total number of items.
