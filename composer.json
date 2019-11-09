@@ -18,10 +18,10 @@
         "phpunit/phpunit": "~4.2"
     },
     "autoload": {
-        "psr-0": {"JasonGrimes": "src/"}
+        "psr-0": {"EtoDesign": "src/"}
     },
     "autoload-dev": {
-        "psr-0": {"JasonGrimes\\Tests": "tests/"}
+        "psr-0": {"EtoDesign\\Tests": "tests/"}
     }
 
 }

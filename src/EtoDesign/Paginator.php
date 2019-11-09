@@ -1,6 +1,6 @@
 <?php
 
-namespace JasonGrimes;
+namespace EtoDesign;
 
 class Paginator
 {

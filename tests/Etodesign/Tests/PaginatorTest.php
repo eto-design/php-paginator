@@ -1,8 +1,8 @@
 <?php
 
-namespace JasonGrimes\Tests;
+namespace EtoDesign\Tests;
 
-use JasonGrimes\Paginator;
+use EtoDesign\Paginator;
 
 class PaginatorTest extends \PHPUnit_Framework_TestCase
 {

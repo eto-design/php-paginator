@@ -1,6 +1,5 @@
 PHP Paginator
 =============
-test1
 Buid on top of  https://github.com/jasongrimes/php-paginator
 
 
