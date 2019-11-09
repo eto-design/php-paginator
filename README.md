@@ -33,7 +33,7 @@ The small template renders the page number as a select list to save space:
 
 Install with composer: 
 
-    composer require "jasongrimes/paginator:~1.0"
+    composer require "etodesign/php-paginator:~2.0"
 
 ## Basic usage
 
@@ -43,7 +43,7 @@ Here's a quick example using the defaults:
     
     require '../vendor/autoload.php';
 
-    use JasonGrimes\Paginator;
+    use EtoDesign\Paginator;
 
     $totalItems = 1000;
     $itemsPerPage = 50;
@@ -91,13 +91,6 @@ This will output the following:
       <li><a href="/foo/page/9">Next &raquo;</a></li>
     </ul>
     
-To render it with one of the other example templates, just make sure the variable is named `$paginator` and then include the template file:
-
-    $paginator = new Paginator($totalItems, $itemsPerPage, $currentPage, $urlPattern);
-    
-    include '../vendor/jasongrimes/paginator/examples/pagerSmall.phtml';
-    
-<img src="examples/screenshot-small-mid.png" width="220"><br/>
 
 If the example templates don't suit you, you can iterate over the paginated data to render your own pagination control.
 
